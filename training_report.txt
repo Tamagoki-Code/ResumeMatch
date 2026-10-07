@@ -1,0 +1,32 @@
+Held-out test accuracy: 0.652  (test size=497, train size=1986)
+
+                        precision    recall  f1-score   support
+
+            ACCOUNTANT       0.79      0.92      0.85        24
+              ADVOCATE       0.56      0.58      0.57        24
+           AGRICULTURE       0.89      0.62      0.73        13
+               APPAREL       0.62      0.26      0.37        19
+                  ARTS       0.71      0.24      0.36        21
+            AUTOMOBILE       1.00      0.14      0.25         7
+              AVIATION       0.56      0.62      0.59        24
+               BANKING       0.59      0.43      0.50        23
+                   BPO       1.00      0.25      0.40         4
+  BUSINESS-DEVELOPMENT       0.64      0.88      0.74        24
+                  CHEF       0.95      0.83      0.89        24
+          CONSTRUCTION       0.84      0.73      0.78        22
+            CONSULTANT       0.76      0.57      0.65        23
+              DESIGNER       0.72      0.62      0.67        21
+         DIGITAL-MEDIA       0.50      0.58      0.54        19
+           ENGINEERING       0.66      0.79      0.72        24
+               FINANCE       0.68      0.79      0.73        24
+               FITNESS       0.85      0.48      0.61        23
+            HEALTHCARE       0.45      0.57      0.50        23
+                    HR       0.71      0.91      0.80        22
+INFORMATION-TECHNOLOGY       0.61      0.79      0.69        24
+      PUBLIC-RELATIONS       0.52      0.50      0.51        22
+                 SALES       0.53      0.78      0.63        23
+               TEACHER       0.61      0.95      0.75        20
+
+              accuracy                           0.65       497
+             macro avg       0.70      0.62      0.62       497
+          weighted avg       0.68      0.65      0.64       497

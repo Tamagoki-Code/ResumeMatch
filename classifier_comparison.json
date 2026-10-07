@@ -1,0 +1,26 @@
+{
+  "tfidf": {
+    "accuracy": 0.6761981474023359,
+    "macro_f1": 0.6315505649855498,
+    "confident_share": 0.563431333064841,
+    "accuracy_when_confident": 0.823445318084346
+  },
+  "sbert_lr": {
+    "accuracy": 0.675392670157068,
+    "macro_f1": 0.6362081812433532,
+    "confident_share": 0.9826822392267418,
+    "accuracy_when_confident": 0.6860655737704918
+  },
+  "tfidf_sbert": {
+    "accuracy": 0.675392670157068,
+    "macro_f1": 0.6364849152054478,
+    "confident_share": 0.9810712847362062,
+    "accuracy_when_confident": 0.6867816091954023
+  },
+  "sbert_pca_rf": {
+    "accuracy": 0.6681433749496577,
+    "macro_f1": 0.6197534739031558,
+    "confident_share": 0.4591220298026581,
+    "accuracy_when_confident": 0.874561403508772
+  }
+}

@@ -1,0 +1,29 @@
+# Personal data extracted from resumes - never commit
+dataset_texts.json
+extracted_resume_text.json
+extracted_selfcheck_text.json
+embeddings_cache.npz
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Superseded model artifacts - only industry_model_v3.joblib is used by the app.
+# industry_classifier_v2.pkl is also 100+MB, over GitHub's file size limit.
+industry_classifier.pkl
+pca_transformer.pkl
+industry_classifier_v2.pkl
+pca_transformer_v2.pkl
+
+# Old-version remnants, not used by the current app
+labels.csv
+skill_dictionary.csv
+py
+
+# OS / editor
+.DS_Store
+Thumbs.db

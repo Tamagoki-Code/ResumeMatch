@@ -1,0 +1,8 @@
+streamlit
+sentence-transformers
+pypdf
+numpy
+scipy
+scikit-learn
+joblib
+nltk
